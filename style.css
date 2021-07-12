@@ -133,3 +133,41 @@ hr{
     padding: 5px;
     border-radius: 20px;
 }
+
+/* Media query */
+
+/* Mobile phones */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+    }
+    .player,.blog, .course{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* tablets  */
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+     .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .player,.blog{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
