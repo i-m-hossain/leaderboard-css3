@@ -25,13 +25,18 @@ main{
 }
 
 /* top player section  */
+.top-players{
+    margin-bottom: 30px;
+}
 .players-title{
     color: var(--players-title-color);
     font-size: 24px;
+    margin-top: 3px;
 }
 .players{
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
 
 }
 .player{
@@ -45,4 +50,5 @@ main{
 .player-name{
     margin-left: 16px;
     font-size: 18px;
+    
 }
