@@ -13,5 +13,5 @@ This is  simple leaderboard page featuring 4 main portion.
   3. Top Blog Section       --------Grid, fexbox
   4. Top Course section     --------Grid, flexbox
   
-Figma file attached with the files in case needed.
+Figma file is attached with the files in case needed.
 
