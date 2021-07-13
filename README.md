@@ -2,7 +2,7 @@
 
 <h2>Module-9-html-css-only-landing-page by programming hero </h2>
 This module was designed to create a landing page using Html5 and Css3. 
-HTML5 tags used:
+<p>HTML5 tags used:</p>
   <ul>
     <li>header, nav, ul, li, a, main, section, div, article,img, p, a, span, hr, etc.</li>
   </ul>
